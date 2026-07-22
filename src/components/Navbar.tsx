@@ -19,7 +19,6 @@ export function Navbar() {
         {isAuthenticated ? (
           <>
             <Link to="/workouts">Workouts</Link>
-            <Link to="/workouts/new">New Workout</Link>
             <span className="navbar-username">{username}</span>
             <button type="button" className="link-button" onClick={handleLogout}>
               Log out
